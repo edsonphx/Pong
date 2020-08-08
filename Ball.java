@@ -30,9 +30,9 @@ public class Ball
 			win = false;
 			lose = false;
 			dx = Math.cos(Math.toRadians(angle));
-	    	dy = Math.sin(Math.toRadians(angle));
-	    	x = 70;
-	    	y = 59;
+	    		dy = Math.sin(Math.toRadians(angle));
+	    		x = 70;
+	    		y = 59;
 		}
 		bx = x + dx*VELOCITY;
 		by = y + dy*VELOCITY;
